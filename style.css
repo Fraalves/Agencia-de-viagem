@@ -1,0 +1,158 @@
+body {
+    background-color: #FFFFDD;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+header {
+    width: 100%;
+    background-color: #A2C579;
+    font-weight: 400;
+}
+
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    background-color:#FFFFDD ;
+}
+
+.bg-body-tertiary{
+    padding: 0;
+}
+
+header a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.container-inicial {
+    display: flex;
+    justify-content: end;
+}
+
+
+#imagem_logo {
+    max-width: 100%;
+    height: 40px;
+    display: block;
+}
+
+
+.card_anuncio {
+    background-color: #D2DE32;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_chamada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.campo_anuncio {
+    align-items: center;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+.titulo_descricao {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+
+.botoes{
+    border-radius: none;
+}
+
+.btn-primary:hover {
+    background-color: #115c43;
+}
+
+.btn-primary {
+    margin-right: 18px;
+    background-color: #114232;
+    border-color: #A2C579;
+}
+
+.ferias {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3%;
+
+
+}
+
+#card_fotos {
+    max-width: 100%;
+
+}
+
+.ferias_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    flex-wrap: wrap;
+    margin-right: 3%;
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer_1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8%;
+
+}
+
+.rodape_1,
+.rodape_2,
+.rodape_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-decoration: none;
+
+
+}
+
+.footer_2 {
+    background-color: #A2C579;
+    padding-left: 2%;
+}
+
+.img_footer {
+    width: 35px;
+    height: 32px;
+}
+
+.img_footer_1 {
+    width: 30px;
+    height: 20px;
+}
